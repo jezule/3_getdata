@@ -3,6 +3,7 @@
 library(plyr)
 
 clean.data = function() {
+	"Performs the Getting and Cleaning Data project assignment" 
     # 0. Download data.
     # Check if a directory called data exists, create it otherwise.
     if (!file.exists("data")) {
